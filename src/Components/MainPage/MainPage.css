@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    position: fixed;
+    z-index: 9999;
+} 
+.background {
+    background: rgb(30, 154, 211);
+}
+.navlogo{
+    width: 16%;
+    display: flex;
+    justify-content: end;
+}
+.navcontent{
+    width: 89%;
+    
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.list li a:hover{
+    color: white;
+}
+.list li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navlist{
+    list-style: none;
+}
+.list{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-evenly;
+    background-color: rgb(30, 154, 211);
+
+}
+.list a{
+  color: black;
+  text-decoration: none;
+}
+.divhomeimg{
+width: 25%;
+}
+.divhomeimg img{
+    height: 250px;
+    width: 250px;
+}
+.divhome {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    height: 420px;
+    padding-bottom: 45px;
+}
+.divhomecont{
+    text-align: left;
+    width: 58%;
+   
+
+}
+.divhomecont p{
+    line-height:32px;
+    padding-bottom: 20px;
+    font-size: 20px;
+} 
+.divhomecont h1{
+    padding-bottom: 20px;
+    font-size: 35px;
+} 
+.divhomecont button{
+   padding: 20px;
+   font-size: 20px;
+   background-color: rgba(30, 154, 211, 0.502); 
+   font-weight: bold;
+   border-radius: 10px;
+}
+.navicon {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.divaboutmain{
+    height: 500px;
+    /* background-color:rgba(116, 202, 242, 0.326) ; */
+}
+.abouthead{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    /* color: rgb(22, 124, 171) ; */
+    color: black;
+    background-color:rgb(77, 188, 240) ;
+    position: relative ;
+    left: 106px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+.divaboutright{
+    width: 35%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* color: #41435d; */
+}
+.divaboutrighthead{
+    /* width: 30%; */
+    position: relative;
+    bottom: 59px;
+    text-align: left;
+    
+}
+.divaboutrighthead p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.divaboutrightdet{
+    width: 50%;
+    text-align: justify;
+    position: relative;
+    top: 7px;
+    left: 30px;
+}
+.divaboutrightdet p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.divabout{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgba(116, 202, 242, 0.326) ;
+
+}
+.divaboutleft{
+    width: 40%;
+    text-align: left;
+    
+}
+.divaboutleft p{
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.aboutleftp1{
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.educationhead h1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    /* color: rgb(22, 124, 171) ; */
+    color: black;
+    background-color:rgb(77, 188, 240) ;
+    position: relative ;
+    left: 106px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.educationhead h3{
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    /* text-align: left; */
+    
+}
+.edu1{
+    /* width: 50%; */
+    text-align: left;
+}
+.diveduleftright{
+    display: flex;
+    justify-content: space-evenly;
+}
+.diveduleft{
+    width: 45%;
+}
+.diveduright{
+    width: 30%;
+}
+.diveduright img{
+    width: 500px;
+}
+.skillshead h1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 38px;
+    width: 110px;
+    /* color: rgb(22, 124, 171) ; */
+    color: black;
+    background-color:rgb(77, 188, 240) ;
+    position: relative ;
+    left: 106px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.divskillcontent {
+    padding-top: 20px;
+ height: 220px;
+ width: 250px;
+ text-align: left;
+ padding-left: 150px;
+ line-height: 20px;
+ font-size: 15px;
+
+}
+.divskillcontent li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.skillsec{
+    padding-top: 20px;
+}
+.divinterncont h2{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 100px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(239, 239, 28);
+    color: black;
+    /* padding-left: 100px; */
+}
+.divinterncont p{
+    /* line-height: 30px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-inline: 100px;
+    
+
+}
+.skillp{
+    width: 60%;
+    text-align: left;
+}
+.skillp1{
+    width: 63%;
+    text-align: left;
+}
+.skillp2{
+    width: 90%;
+    text-align: left;
+}
+.skillp3{
+    width: 80%;
+    text-align: left;
+}
+.skillyr{
+    text-align: left;
+    position: relative;
+    left: 100px;
+    color: yellow;
+}
+.divskill{
+    background-image: url(../../Assets/skillpic.jpg);
+    background-repeat: repeat;
+    background-position-y: center;
+    width: 100%;
+    height: 630px;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.conhead h1{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 38px;
+    width: 160px;
+    /* color: rgb(22, 124, 171) ; */
+    color: black;
+    background-color:rgb(77, 188, 240) ;
+    position: relative ;
+    left: 99px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.divname{
+    text-align: left;
+}
+.nameh1{
+    font-size: 35px;
+    position: relative;
+    left: 100px;
+
+}
+.contactuscont{
+    position: relative;
+    left: 150px;
+    padding-top: 15px;
+    font-size: 25px;
+    width: 1000px;
+    line-height:50px ;
+    
+}
+.divcontactus{
+    height: 600px;
+}
+.card{
+    position: relative;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: rgba(34, 131, 177, 0.795) ;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    color: white;
+    top: 40px;
+}
+
+.hiremelogo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in-out;
+}
+.card:hover .hiremelogo{
+    scale: 0;
+}
+.card:hover{
+    border-radius: 15px;
+    width: 450px;
+    height: 280px;
+}
+.text-section{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    width: 180px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover .text-section{
+    opacity: 1;
+}
+.conh{
+    padding-top: 8px;
+}
+.conp{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.conme{
+    position: absolute;
+    left: 200px;
+    width: 270px;
+    height: 120px;
+    object-fit: contain;
+    opacity: 0;
+    
+    /* rotate: 15deg; */
+    transition: all 0.3s ease-in-out;
+}
+.card:hover .conme{
+    opacity: 1;
+}
+
+.climg{
+    height: 70px;
+    width: 70px;
+    padding-bottom: 8px;
+    object-fit: contain;
+}
+.climg2{
+    height: 77px;
+    width: 77px;
+    object-fit: contain;
+}
+.climg1{
+    height: 70px;
+    width: 90px;
+    object-fit: contain;
+}
+.icondiv{
+    height: 100px;
+    width: 350px;
+    /* background-color: gray; */
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    position: relative;
+    left: 180px;
+    top: 140px;
+}
+.hireimg{
+    /* height: 30%; */
+    /* background-color: aqua; */
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.divcontact{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
